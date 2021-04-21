@@ -110,3 +110,18 @@
 .text-italic {
   font-style: italic;
 }
+
+// button
+
+.my-btn {
+  font-size: 13px;
+  color: $tertiary;
+  background-image: $bg-lg;
+  transition: transform .45s,opacity .45s;
+  padding: 18px 45px;
+  text-shadow: 0 0 10px rgb(0 0 0 / 4%);
+  box-shadow: 6px 6px 25px 0 rgb(0 217 166 / 35%);
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+}
