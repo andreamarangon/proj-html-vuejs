@@ -20,6 +20,24 @@
       h1 {
         font-size: 60px;
       }
+      h4 {
+        font-size: 17px;
+      }
+      .selector {
+        height: 52px;
+        width: 196px;
+        background: linear-gradient(271deg,#2e2e2e 1%,#5a5a5a 100%);
+        box-shadow: 9px 7px 20px rgb(0 0 0 / 20%);
+        border-radius: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span:first-child {
+          padding: 12px 20px;
+          background-image: $bg-lg;
+          border-radius: 150px;
+        }
+      }
     }
   }
 }

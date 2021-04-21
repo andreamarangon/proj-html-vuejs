@@ -143,6 +143,23 @@ a {
   width: fit-content;
 }
 
+.separator-container {
+  display: flex;
+}
+.separator-container .separator-left {
+  height: 5px;
+  width: 10px;
+  background-image: linear-gradient(to right, #9be15d 0%, #00d9a6 100%);
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.separator-container .separator-right {
+  height: 5px;
+  width: 50px;
+  background-image: linear-gradient(to right, #9be15d 0%, #00d9a6 100%);
+  border-radius: 20px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -220,4 +237,22 @@ nav .nav-down .nav-down-container ul li i {
 }
 .jumbo .jumbo-container .jumbo-contain h1 {
   font-size: 60px;
+}
+.jumbo .jumbo-container .jumbo-contain h4 {
+  font-size: 17px;
+}
+.jumbo .jumbo-container .jumbo-contain .selector {
+  height: 52px;
+  width: 196px;
+  background: linear-gradient(271deg, #2e2e2e 1%, #5a5a5a 100%);
+  box-shadow: 9px 7px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jumbo .jumbo-container .jumbo-contain .selector span:first-child {
+  padding: 12px 20px;
+  background-image: linear-gradient(269deg, #00d9a6 0%, #9be15d 100%);
+  border-radius: 150px;
 }

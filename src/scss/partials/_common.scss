@@ -112,7 +112,6 @@
 }
 
 // button
-
 .my-btn {
   font-size: 13px;
   color: $tertiary;
@@ -125,4 +124,22 @@
   border-radius: 25px;
   cursor: pointer;
   width: fit-content;
+}
+
+// separator
+.separator-container {
+  display: flex;
+  .separator-left {
+    height: 5px;
+    width: 10px;
+    background-image: linear-gradient(to right,#9be15d 0%,#00d9a6 100%);
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  .separator-right {
+    height: 5px;
+    width: 50px;
+    background-image: linear-gradient(to right,#9be15d 0%,#00d9a6 100%);
+    border-radius: 20px;
+  }
 }
