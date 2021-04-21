@@ -138,6 +138,9 @@ a {
   text-transform: uppercase;
   border-radius: 25px;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 nav {
@@ -195,6 +198,26 @@ nav .nav-down .nav-down-container ul li i {
 }
 
 .jumbo {
-  height: 1000px;
+  color: #202020;
+  height: 940px;
   background-color: #f5f5f5;
+  background-image: url("../img/businesswoman-round.png");
+  background-position: 100% 50%;
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  margin-top: 146px;
+}
+.jumbo .jumbo-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.jumbo .jumbo-container .jumbo-contain h4 {
+  background: -webkit-linear-gradient(#00d9a6, #9be15d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.jumbo .jumbo-container .jumbo-contain h1 {
+  font-size: 60px;
 }
