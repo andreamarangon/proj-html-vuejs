@@ -10,6 +10,8 @@
   .jumbo-container {
     @include container-center(80%);
     .jumbo-contain {
+      // height: 700px;
+      padding: 150px 100px;;
       h4 {
         background: -webkit-linear-gradient(#00d9a6,#9be15d);
         -webkit-background-clip: text;
@@ -20,23 +22,35 @@
       h1 {
         font-size: 60px;
       }
-      h4 {
-        font-size: 17px;
+      h5 {
+        font-size: 14px;
       }
-      .selector {
-        height: 52px;
-        width: 196px;
-        background: linear-gradient(271deg,#2e2e2e 1%,#5a5a5a 100%);
-        box-shadow: 9px 7px 20px rgb(0 0 0 / 20%);
-        border-radius: 150px;
+      .social-container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        span:first-child {
-          padding: 12px 20px;
-          background-image: $bg-lg;
+        .selector {
+          margin-left: 150px;
+          height: 52px;
+          width: 196px;
+          background: linear-gradient(271deg,#2e2e2e 1%,#5a5a5a 100%);
+          box-shadow: 9px 7px 20px rgb(0 0 0 / 20%);
           border-radius: 150px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 4px;
+          span:first-child {
+            background-image: $bg-lg;
+            border-radius: 150px;
+          }
+          span {
+            font-size: 20px;
+            color: #ffffff59;
+            padding: 10px 20px 10px 25px;
+            font-weight: bold;
+          }
         }
+
       }
     }
   }
