@@ -88,6 +88,46 @@ a {
   margin-top: 5rem;
 }
 
+.mt-11 {
+  margin-top: 5.5rem;
+}
+
+.mt-12 {
+  margin-top: 6rem;
+}
+
+.mt-13 {
+  margin-top: 6.5rem;
+}
+
+.mt-14 {
+  margin-top: 7rem;
+}
+
+.mt-15 {
+  margin-top: 7.5rem;
+}
+
+.mt-16 {
+  margin-top: 8rem;
+}
+
+.mt-17 {
+  margin-top: 8.5rem;
+}
+
+.mt-18 {
+  margin-top: 9rem;
+}
+
+.mt-19 {
+  margin-top: 9.5rem;
+}
+
+.mt-20 {
+  margin-top: 10rem;
+}
+
 .mb-1 {
   margin-bottom: 0.5rem;
 }
@@ -126,6 +166,46 @@ a {
 
 .mb-10 {
   margin-bottom: 5rem;
+}
+
+.mb-11 {
+  margin-bottom: 5.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 6rem;
+}
+
+.mb-13 {
+  margin-bottom: 6.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 7rem;
+}
+
+.mb-15 {
+  margin-bottom: 7.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 8rem;
+}
+
+.mb-17 {
+  margin-bottom: 8.5rem;
+}
+
+.mb-18 {
+  margin-bottom: 9rem;
+}
+
+.mb-19 {
+  margin-bottom: 9.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 10rem;
 }
 
 .pt-1 {
@@ -168,6 +248,46 @@ a {
   padding-top: 5rem;
 }
 
+.pt-11 {
+  padding-top: 5.5rem;
+}
+
+.pt-12 {
+  padding-top: 6rem;
+}
+
+.pt-13 {
+  padding-top: 6.5rem;
+}
+
+.pt-14 {
+  padding-top: 7rem;
+}
+
+.pt-15 {
+  padding-top: 7.5rem;
+}
+
+.pt-16 {
+  padding-top: 8rem;
+}
+
+.pt-17 {
+  padding-top: 8.5rem;
+}
+
+.pt-18 {
+  padding-top: 9rem;
+}
+
+.pt-19 {
+  padding-top: 9.5rem;
+}
+
+.pt-20 {
+  padding-top: 10rem;
+}
+
 .pb-1 {
   padding-bottom: 0.5rem;
 }
@@ -206,6 +326,46 @@ a {
 
 .pb-10 {
   padding-bottom: 5rem;
+}
+
+.pb-11 {
+  padding-bottom: 5.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 6rem;
+}
+
+.pb-13 {
+  padding-bottom: 6.5rem;
+}
+
+.pb-14 {
+  padding-bottom: 7rem;
+}
+
+.pb-15 {
+  padding-bottom: 7.5rem;
+}
+
+.pb-16 {
+  padding-bottom: 8rem;
+}
+
+.pb-17 {
+  padding-bottom: 8.5rem;
+}
+
+.pb-18 {
+  padding-bottom: 9rem;
+}
+
+.pb-19 {
+  padding-bottom: 9.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 10rem;
 }
 
 .font-weight-bold {
@@ -269,6 +429,7 @@ a {
 }
 
 nav {
+  box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.14);
   position: fixed;
   top: 0;
   left: 0;
@@ -479,4 +640,74 @@ nav .nav-down .nav-down-container ul li i {
   width: 55%;
   padding-top: 250px;
   padding-left: 40px;
+}
+.web-design .web-design-container .web-design-down {
+  display: flex;
+  flex-wrap: wrap;
+}
+.web-design .web-design-container .web-design-down .card-web-design {
+  width: calc(100% / 4 - 6px);
+  margin: 0 3px;
+}
+.web-design .web-design-container .web-design-down .card-web-design img {
+  width: 100%;
+  border-radius: 5px;
+}
+.web-design .web-design-container .my-btn {
+  margin: 120px auto 220px;
+}
+
+.client-comment {
+  height: 860px;
+}
+.client-comment .client-comment-container {
+  background-image: url("../img/four-businesspeople.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.client-comment .client-comment-container .client-comment-overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(49deg, #171717 0%, #474747 100%);
+  opacity: 0.93;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain {
+  width: 50%;
+  margin: 0 auto;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain h2 {
+  color: #00D9A6;
+  font-size: 150px;
+  font-weight: 700;
+  font-family: "Rufina", serif;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain p {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 45px;
+  margin-top: -50px;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain .img-round {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-image: url("../img/businesswoman.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #ffffff;
+  margin: 0 auto;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain h3 {
+  color: #00D9A6;
+  font-weight: normal;
+  font-size: 24px;
+}
+.client-comment .client-comment-container .client-comment-overlay .client-comment-contain span {
+  color: #ffffff;
+  font-size: 18px;
 }

@@ -20,5 +20,20 @@
         padding-left: 40px;
       }
     }
+    .web-design-down {
+      display: flex;
+      flex-wrap: wrap;
+      .card-web-design {
+        width: calc(100% / 4 - 6px);
+        margin: 0 3px;
+        img {
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
+    .my-btn {
+      margin: 120px auto 220px;
+    }
   }
 }

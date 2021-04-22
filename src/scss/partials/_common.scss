@@ -30,25 +30,25 @@
 }
 
 // margin and padding
-@for $i from 1 through 10 {
+@for $i from 1 through 20 {
   .mt-#{$i} {
     margin-top: 0.5rem * $i;
   }
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 20 {
   .mb-#{$i} {
     margin-bottom: 0.5rem * $i;
   }
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 20 {
   .pt-#{$i} {
     padding-top: 0.5rem * $i;
   }
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 20 {
   .pb-#{$i} {
     padding-bottom: 0.5rem * $i;
   }

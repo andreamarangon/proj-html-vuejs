@@ -1,0 +1,54 @@
+.client-comment {
+  height: 860px;
+  .client-comment-container {
+    background-image: url('../img/four-businesspeople.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .client-comment-overlay {
+      height: 100%;
+      width: 100%;
+      background-image: linear-gradient(49deg,#171717 0%,#474747 100%);
+      opacity: .93;
+      .client-comment-contain {
+        @include container-center(50%);
+        h2 {
+          color: $secondary;
+          font-size: 150px;
+          font-weight: 700;
+          font-family: 'Rufina', serif;
+        }
+        p {
+          color: $tertiary;
+          font-family: 'Nunito Sans', sans-serif;
+          font-size: 27px;
+          font-weight: 300;
+          font-style: italic;
+          line-height: 45px;
+          margin-top: -50px;
+        }
+        .img-round {
+          height: 100px;
+          width: 100px;
+          border-radius: 100%;
+          background-image: url('../img/businesswoman.jpg');
+          background-size: cover;
+          background-position: center;
+          border: 3px solid $tertiary;
+          margin: 0 auto;
+        }
+        h3 {
+          color: $secondary;
+          font-weight: normal;
+          font-size: 24px;
+        }
+        span {
+          color: $tertiary;
+          font-size: 18px;
+        }
+
+      }
+    }
+  }
+}
