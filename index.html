@@ -42,12 +42,7 @@
             </div>
             <div class="nav-down-center">
               <ul class="text-uppercase">
-                <li><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">showcase</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">contact</a></li>
+                <li v-for="navLink in navLinks"><a href="">{{navLink.name}}</a></li>
               </ul>
             </div>
             <div class="nav-down-right">
