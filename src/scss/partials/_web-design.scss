@@ -1,0 +1,24 @@
+.web-design {
+  .web-design-container {
+    @include container-center(80%);
+    padding-top: 200px;
+    .web-design-up {
+      display: flex;
+      flex-wrap: wrap;
+      .web-design-up-left {
+        width: 45%;
+        h1 {
+          font-size: 55px;
+          span {
+            color: $secondary;
+          }
+        }
+      }
+      .web-design-up-right {
+        width: 55%;
+        padding-top: 250px;
+        padding-left: 40px;
+      }
+    }
+  }
+}

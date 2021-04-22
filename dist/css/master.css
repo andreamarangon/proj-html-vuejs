@@ -456,3 +456,27 @@ nav .nav-down .nav-down-container ul li i {
 .learn-more .learn-more-container .learn-more-right h1 span {
   color: #00D9A6;
 }
+
+.web-design .web-design-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.web-design .web-design-container .web-design-up {
+  display: flex;
+  flex-wrap: wrap;
+}
+.web-design .web-design-container .web-design-up .web-design-up-left {
+  width: 45%;
+}
+.web-design .web-design-container .web-design-up .web-design-up-left h1 {
+  font-size: 55px;
+}
+.web-design .web-design-container .web-design-up .web-design-up-left h1 span {
+  color: #00D9A6;
+}
+.web-design .web-design-container .web-design-up .web-design-up-right {
+  width: 55%;
+  padding-top: 250px;
+  padding-left: 40px;
+}
