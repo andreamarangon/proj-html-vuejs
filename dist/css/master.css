@@ -7,6 +7,7 @@
 
 body {
   font-family: "Quicksand", sans-serif;
+  color: #202020;
 }
 
 ul {
@@ -48,163 +49,163 @@ a {
 }
 
 .mt-1 {
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 
 .mt-2 {
-  margin-top: 1em;
+  margin-top: 1rem;
 }
 
 .mt-3 {
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
 }
 
 .mt-4 {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .mt-5 {
-  margin-top: 2.5em;
+  margin-top: 2.5rem;
 }
 
 .mt-6 {
-  margin-top: 3em;
+  margin-top: 3rem;
 }
 
 .mt-7 {
-  margin-top: 3.5em;
+  margin-top: 3.5rem;
 }
 
 .mt-8 {
-  margin-top: 4em;
+  margin-top: 4rem;
 }
 
 .mt-9 {
-  margin-top: 4.5em;
+  margin-top: 4.5rem;
 }
 
 .mt-10 {
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 
 .mb-1 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
 .mb-2 {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .mb-3 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 .mb-4 {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 .mb-5 {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.5rem;
 }
 
 .mb-6 {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 
 .mb-7 {
-  margin-bottom: 3.5em;
+  margin-bottom: 3.5rem;
 }
 
 .mb-8 {
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
 }
 
 .mb-9 {
-  margin-bottom: 4.5em;
+  margin-bottom: 4.5rem;
 }
 
 .mb-10 {
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 .pt-1 {
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
 }
 
 .pt-2 {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .pt-3 {
-  padding-top: 1.5em;
+  padding-top: 1.5rem;
 }
 
 .pt-4 {
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 
 .pt-5 {
-  padding-top: 2.5em;
+  padding-top: 2.5rem;
 }
 
 .pt-6 {
-  padding-top: 3em;
+  padding-top: 3rem;
 }
 
 .pt-7 {
-  padding-top: 3.5em;
+  padding-top: 3.5rem;
 }
 
 .pt-8 {
-  padding-top: 4em;
+  padding-top: 4rem;
 }
 
 .pt-9 {
-  padding-top: 4.5em;
+  padding-top: 4.5rem;
 }
 
 .pt-10 {
-  padding-top: 5em;
+  padding-top: 5rem;
 }
 
 .pb-1 {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
 }
 
 .pb-2 {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 .pb-3 {
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
 }
 
 .pb-4 {
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .pb-5 {
-  padding-bottom: 2.5em;
+  padding-bottom: 2.5rem;
 }
 
 .pb-6 {
-  padding-bottom: 3em;
+  padding-bottom: 3rem;
 }
 
 .pb-7 {
-  padding-bottom: 3.5em;
+  padding-bottom: 3.5rem;
 }
 
 .pb-8 {
-  padding-bottom: 4em;
+  padding-bottom: 4rem;
 }
 
 .pb-9 {
-  padding-bottom: 4.5em;
+  padding-bottom: 4.5rem;
 }
 
 .pb-10 {
-  padding-bottom: 5em;
+  padding-bottom: 5rem;
 }
 
 .font-weight-bold {
@@ -219,6 +220,10 @@ a {
   text-transform: uppercase;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 .text-center {
   text-align: center;
 }
@@ -230,8 +235,7 @@ a {
 .my-btn {
   font-size: 13px;
   color: #ffffff;
-  background-image: linear-gradient(269deg, #00d9a6 0%, #9be15d 100%);
-  transition: transform 0.45s, opacity 0.45s;
+  background: linear-gradient(269deg, #00d9a6 0%, #9be15d 100%);
   padding: 18px 45px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
   box-shadow: 6px 6px 25px 0 rgba(0, 217, 166, 0.35);
@@ -241,6 +245,9 @@ a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+.my-btn:hover {
+  background: linear-gradient(271deg, #0c0c0c 0%, #474747 100%);
 }
 
 .separator-container {
@@ -316,7 +323,6 @@ nav .nav-down .nav-down-container ul li i {
 }
 
 .jumbo {
-  color: #202020;
   height: 940px;
   background-color: #f5f5f5;
   background-image: url("../img/businesswoman-round.png");
@@ -342,8 +348,24 @@ nav .nav-down .nav-down-container ul li i {
 .jumbo .jumbo-container .jumbo-contain h1 {
   font-size: 60px;
 }
+.jumbo .jumbo-container .jumbo-contain h1 span {
+  color: #00D9A6;
+}
 .jumbo .jumbo-container .jumbo-contain h5 {
   font-size: 14px;
+}
+.jumbo .jumbo-container .jumbo-contain .my-btn-jumbo {
+  font-size: 13px;
+  color: #ffffff;
+  transition: transform 0.45s, opacity 0.45s;
+  padding: 18px 45px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: linear-gradient(271deg, #0c0c0c 0%, #474747 100%);
 }
 .jumbo .jumbo-container .jumbo-contain .social-container {
   display: flex;
@@ -370,4 +392,38 @@ nav .nav-down .nav-down-container ul li i {
   color: #ffffff59;
   padding: 10px 20px 10px 25px;
   font-weight: bold;
+}
+
+.we-are .we-are-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 210px 0 200px;
+}
+.we-are .we-are-container .we-are-left {
+  width: 40%;
+}
+.we-are .we-are-container .we-are-left h1 {
+  font-size: 55px;
+}
+.we-are .we-are-container .we-are-left h1 span {
+  color: #00D9A6;
+}
+.we-are .we-are-container .we-are-right {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.we-are .we-are-container .we-are-right .we-are-card {
+  padding: 60px 50px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 35px 0 rgba(0, 0, 0, 0.14);
+  width: calc(100% / 2 - 40px);
+}
+.we-are .we-are-container .we-are-right .we-are-card i {
+  font-size: 65px;
+}
+.we-are .we-are-container .we-are-right .we-are-card:hover {
+  background-image: linear-gradient(39deg, #00d9a6 0%, #9be15d 100%);
 }

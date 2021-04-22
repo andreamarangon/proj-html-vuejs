@@ -32,25 +32,25 @@
 // margin and padding
 @for $i from 1 through 10 {
   .mt-#{$i} {
-    margin-top: 0.5em * $i;
+    margin-top: 0.5rem * $i;
   }
 }
 
 @for $i from 1 through 10 {
   .mb-#{$i} {
-    margin-bottom: 0.5em * $i;
+    margin-bottom: 0.5rem * $i;
   }
 }
 
 @for $i from 1 through 10 {
   .pt-#{$i} {
-    padding-top: 0.5em * $i;
+    padding-top: 0.5rem * $i;
   }
 }
 
 @for $i from 1 through 10 {
   .pb-#{$i} {
-    padding-bottom: 0.5em * $i;
+    padding-bottom: 0.5rem * $i;
   }
 }
 
@@ -70,6 +70,10 @@
   text-transform: uppercase;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 .text-center {
   text-align: center;
 }
@@ -81,9 +85,9 @@
 // button
 .my-btn {
   font-size: 13px;
+  // transition: transform .45s,opacity .45s;
   color: $tertiary;
-  background-image: $bg-lg;
-  transition: transform .45s,opacity .45s;
+  background: $bg-lg;
   padding: 18px 45px;
   text-shadow: 0 0 10px rgb(0 0 0 / 4%);
   box-shadow: 6px 6px 25px 0 rgb(0 217 166 / 35%);
@@ -91,6 +95,9 @@
   border-radius: 25px;
   cursor: pointer;
   width: fit-content;
+  &:hover {
+    background: linear-gradient(271deg,#0c0c0c 0%,#474747 100%);
+  }
 }
 
 // separator
