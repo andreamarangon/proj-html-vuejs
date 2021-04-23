@@ -26,6 +26,7 @@
         }
         &.partners-card-gray {
           background: linear-gradient(271deg,#0c0c0c 0%,#474747 100%);
+          box-shadow: -3px 9px 34px 0 rgb(0 0 0 / 25%);
           .subscribe {
             position: relative;
             input {
@@ -53,8 +54,15 @@
         }
         &.partners-card-green {
           background-image: linear-gradient(39deg,$secondary 0%,#9be15d 100%);
+          box-shadow: 5px 12px 35px 0 rgb(20 212 153 / 50%);
         }
       }
+    }
+    .partners-logo-container {
+      padding: 100px 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
   }
 }
