@@ -54,8 +54,6 @@
   }
 }
 
-
-
 // font
 .font-weight-bold {
   font-weight: bold;
@@ -107,7 +105,7 @@
   .separator-left {
     height: 5px;
     width: 10px;
-    background-image: linear-gradient(to right,#9be15d 0%,#D2405D 100%);
+    background-image: linear-gradient(to right,#9be15d 0%,$secondary 100%);
     border-radius: 20px;
     margin-right: 5px;
   }

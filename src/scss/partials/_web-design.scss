@@ -41,6 +41,11 @@
           display: block;
         }
         .card-web-design-overlay {
+          color: $tertiary;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          padding: 50px;
           border-radius: 5px;
           position: absolute;
           top: 0;
@@ -51,7 +56,14 @@
           width: 100%;
           opacity: 0;
           transition: 1s ease;
-          background: linear-gradient(217deg,#9be15d 0%,#D2405D 100%);
+          background: linear-gradient(217deg,#9be15d 0%,$secondary 100%);
+          .branding-marketing-container {
+            span {
+              padding-right: 20px;
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
         }
       }
     }
