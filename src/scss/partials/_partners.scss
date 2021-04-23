@@ -7,7 +7,7 @@
       .partners-card {
         padding: 70px;
         border-radius: 20px;
-        height: 300px;
+        height: 342px;
         width: calc(100% / 2 - 30px);
         margin: 0 15px;
         display: flex;
@@ -15,10 +15,41 @@
         align-items: center;
         justify-content: space-between;
         .partners-card-text {
-
+          span {
+            color: #ffffffb3;
+            font-size: 17px;
+          }
+          h1 {
+            font-size: 39px;
+            color: $tertiary;
+          }
         }
         &.partners-card-gray {
           background: linear-gradient(271deg,#0c0c0c 0%,#474747 100%);
+          .subscribe {
+            position: relative;
+            input {
+              background-color: #70707059;
+              color: rgba(255,255,255,.6);
+              font-size: 16px;
+              outline: none;
+              padding: 21px 90px 21px 41px;
+              width: 480px;
+              max-width: 480px;
+              border-radius: 100px;
+              border-bottom: none;
+              border: none;
+            }
+            .submit {
+              color: rgba(255,255,255,.6);
+              padding: 18px 0;
+              font-size: 14px;
+              font-weight: 700;
+              position: absolute;
+              right: 26px;
+              top: 4px;
+            }
+          }
         }
         &.partners-card-green {
           background-image: linear-gradient(39deg,$secondary 0%,#9be15d 100%);
