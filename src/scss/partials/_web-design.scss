@@ -25,11 +25,13 @@
       flex-wrap: wrap;
       .card-web-design {
         width: calc(100% / 4 - 6px);
-        margin: 0 3px;
+        margin: 1px 3px;
         position: relative;
         transition-duration: 0.5s;
+        z-index: 0;
         &:hover {
           transform: scale(1.1,1.1);
+          z-index: 1;
         }
         &:hover .card-web-design-overlay {
           opacity: 0.9;
