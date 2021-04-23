@@ -809,3 +809,29 @@ nav .nav-down .nav-down-container ul li i {
 .blog .blog-container .my-btn-gray {
   margin: 120px auto;
 }
+
+.partners .partners-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.partners .partners-container .partners-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partners .partners-container .partners-card-container .partners-card {
+  padding: 70px;
+  border-radius: 20px;
+  height: 300px;
+  width: calc(100% / 2 - 30px);
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.partners .partners-container .partners-card-container .partners-card.partners-card-gray {
+  background: linear-gradient(271deg, #0c0c0c 0%, #474747 100%);
+}
+.partners .partners-container .partners-card-container .partners-card.partners-card-green {
+  background-image: linear-gradient(39deg, #D2405D 0%, #9be15d 100%);
+}
