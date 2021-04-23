@@ -12,17 +12,23 @@ var app = new Vue({
   el: '#root',
   data: {
     navLinks: [{
-      name: 'home'
+      name: 'home',
+      link: '#'
     }, {
-      name: 'about'
+      name: 'about',
+      link: 'https://demo.phlox.pro/business-2/about/'
     }, {
-      name: 'services'
+      name: 'services',
+      link: 'https://demo.phlox.pro/business-2/services/'
     }, {
-      name: 'showcase'
+      name: 'showcase',
+      link: 'https://demo.phlox.pro/business-2/showcase/'
     }, {
-      name: 'blog'
+      name: 'blog',
+      link: 'https://demo.phlox.pro/business-2/blog/'
     }, {
-      name: 'contact'
+      name: 'contact',
+      link: 'https://demo.phlox.pro/business-2/contact-page/'
     }]
   },
   computed: {},

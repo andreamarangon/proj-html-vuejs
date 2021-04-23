@@ -44,7 +44,7 @@
             </div>
             <div class="nav-down-center">
               <ul class="text-uppercase">
-                <li v-for="navLink in navLinks"><a href="">{{navLink.name}}</a></li>
+                <li v-for="navLink in navLinks"><a :href="navLink.link">{{navLink.name}}</a></li>
               </ul>
             </div>
             <div class="nav-down-right">
