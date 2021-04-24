@@ -29,9 +29,7 @@
             </div>
             <div class="nav-up-right">
               <ul>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-pinterest-p"></i></li>
+                <li v-for="socialLogo in socialLogos"><i :class="socialLogo.logo"></i></li>
               </ul>
             </div>
           </div>
@@ -60,12 +58,12 @@
         <div class="jumbo-container">
           <div class="jumbo-contain">
             <h4 class="mb-1">17 years of experience</h4>
-            <h1>We Are a<br>Web Design <span>Agency</span></h1>
+            <h1 class="mb-4">We Are a<br>Web Design <span>Agency</span></h1>
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
             </div>
-            <p class="mb-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,<br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the<br>Semantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
+            <p class="mb-7 mt-6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,<br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the<br>Semantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
             <div class="my-btn-gray mb-9">read more</div>
             <div class="social-container">
               <h5 class="text-uppercase">facebook - instagram - youtube - twitter</h5>
@@ -83,12 +81,12 @@
       <section class="we-are">
         <div class="we-are-container">
           <div class="we-are-left mt-10">
-            <h1 class="text-capitalize">we are here to <br> make your <span>website </span><br> look more <span>elegant</span><br> and stylish!</h1>
+            <h1 class="text-capitalize mb-4">we are here to <br> make your <span>website </span><br> look more <span>elegant</span><br> and stylish!</h1>
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
             </div>
-            <div class="my-btn">view all</div>
+            <div class="my-btn mt-8">view all</div>
           </div>
           <div class="we-are-right">
             <div class="we-are-card">
@@ -138,7 +136,7 @@
                 <div class="separator-left"></div>
                 <div class="separator-right"></div>
               </div>
-              <h1>Our recent <span>web design</span> &<br>some examples of<br>past <span>projects</span></h1>
+              <h1 class="mb-4">Our recent <span>web design</span> &<br>some examples of<br>past <span>projects</span></h1>
               <div class="separator-container">
                 <div class="separator-left"></div>
                 <div class="separator-right"></div>
@@ -148,7 +146,7 @@
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
             </div>
           </div>
-          <div class="web-design-down mt-3">
+          <div class="web-design-down mt-5">
             <div class="card-web-design">
               <img src="./dist/img/flower.jpg" alt="">
               <div class="card-web-design-overlay">
@@ -241,7 +239,7 @@
       <section class="blog">
         <div class="blog-container">
           <div class="blog-title-container">
-            <h1 class="text-capitalize">lastest news & our <span>blog</span></h1>
+            <h1 class="text-capitalize mb-3">lastest news & our <span>blog</span></h1>
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
@@ -312,7 +310,7 @@
       </section>
     </main>
     <footer>
-      <section class="contacts">
+      <section class="footer-up mt-20 mb-15">
         <div class="contacts-container">
           <div class="contacts-card">
             <img src="./dist/img/logo-phlox-business.png" alt="">
@@ -344,10 +342,26 @@
               <div class="separator-left-footer"></div>
               <div class="separator-right-footer"></div>
             </div>
+            <img src="./dist/img/map.png" alt="">
           </div>
         </div>
       </section>
-      <section></section>
+      <section class="footer-down">
+        <div class="footer-down-container">
+          <p><small>© 2020 PHLOX BUSINESS THEME.</small></p>
+          <ul>
+            <li v-for="socialLogo in socialLogos"><i :class="socialLogo.logo"></i></li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-fixed">
+        <div class="fixed-arrow">
+          <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="fixed-comment">
+          <i class="far fa-comment"></i>
+        </div>
+      </section>
     </footer>
 
   </div>

@@ -1,5 +1,5 @@
 footer {
-  .contacts {
+  .footer-up {
     .contacts-container {
       @include container-center(80%);
       display: flex;
@@ -7,7 +7,65 @@ footer {
       .contacts-card {
         width: calc(100% / 4 - 30px);
         margin: 0 15px;
-        
+      }
+    }
+  }
+  .footer-down {
+    color: #ffffff80;
+    height: 112px;
+    background: linear-gradient(285deg,#0c0c0c 0%,#474747 100%);
+    .footer-down-container {
+      @include container-center(80%);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      ul {
+        li {
+          display: inline-block;
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+  .footer-fixed {
+    position: fixed;
+    z-index: 10;
+    right: 35px;
+    bottom: 42px;
+    display: flex;
+    align-items: center;
+    .fixed-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      background-color: $tertiary;
+      box-shadow: 0 0 0 1px #3d3d3d inset;
+      cursor: pointer;
+      &:hover {
+        background-color: #3d3d3d;
+      }
+      &:hover a{
+        color: $tertiary;
+      }
+    }
+    .fixed-comment {
+      cursor: pointer;
+      margin-left: 20px;
+      background-color: #527ceb;
+      color: $tertiary;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      &:hover {
+        opacity: 0.9;
       }
     }
   }

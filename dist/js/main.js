@@ -74,6 +74,16 @@ var app = new Vue({
       info: 'info@yourdomain.com'
     }, {
       info: '+99 (0) 101 000 888'
+    }],
+    socialLogos: [{
+      logo: 'fab fa-facebook-f'
+    }, {
+      logo: 'fab fa-twitter'
+    }, {
+      logo: 'fab fa-pinterest-p'
+    }],
+    designImg: [{
+      title: 'The Basket of Flowers'
     }]
   },
   computed: {},
