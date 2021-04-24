@@ -53,6 +53,43 @@ var app = new Vue({
         name: 'mighty',
         img: './dist/img/logo-mighty.png'
       },
+    ],
+    footerLinks:[
+      {
+        name: 'Careers',
+        link: '#'
+      },
+      {
+        name: 'News',
+        link: '#'
+      },
+      {
+        name: 'Terms of Use',
+        link: '#'
+      },
+      {
+        name: 'Privacy Projects',
+        link: '#'
+      },
+      {
+        name: 'About',
+        link: '#'
+      },
+      {
+        name: 'Contact',
+        link: '#'
+      },
+    ],
+    footerContacts:[
+      {
+        info: 'Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051',
+      },
+      {
+        info: 'info@yourdomain.com',
+      },
+      {
+        info: '+99 (0) 101 000 888',
+      }
     ]
   },
   computed:{

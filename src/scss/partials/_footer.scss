@@ -1,0 +1,14 @@
+footer {
+  .contacts {
+    .contacts-container {
+      @include container-center(80%);
+      display: flex;
+      flex-wrap: wrap;
+      .contacts-card {
+        width: calc(100% / 4 - 30px);
+        margin: 0 15px;
+        
+      }
+    }
+  }
+}
