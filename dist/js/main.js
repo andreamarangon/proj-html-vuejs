@@ -16,19 +16,19 @@ var app = new Vue({
       link: '#'
     }, {
       name: 'about',
-      link: 'https://demo.phlox.pro/business-2/about/'
+      link: '#about'
     }, {
       name: 'services',
-      link: 'https://demo.phlox.pro/business-2/services/'
+      link: '#services'
     }, {
       name: 'showcase',
-      link: 'https://demo.phlox.pro/business-2/showcase/'
+      link: '#showcase'
     }, {
       name: 'blog',
-      link: 'https://demo.phlox.pro/business-2/blog/'
+      link: '#blog'
     }, {
       name: 'contact',
-      link: 'https://demo.phlox.pro/business-2/contact-page/'
+      link: '#contact'
     }],
     partnersLogo: [{
       name: 'avantgarde',
