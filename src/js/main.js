@@ -166,12 +166,9 @@ var app = new Vue({
       './dist/img/businesswoman-round.png',
       './dist/img/businessman-round.png',
       './dist/img/businesspeople-round.png',
-
     ]
-
   },
   computed:{
-
   },
   methods:{
     numSelection: function (index) {

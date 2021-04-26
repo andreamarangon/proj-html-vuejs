@@ -653,8 +653,8 @@ nav .nav-down .nav-down-container ul li i {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
-  background: linear-gradient(217deg, #9be15d 0%, #D2405D 100%);
+  opacity: 0.9;
+  background-image: linear-gradient(217deg, #D2405D 0%, #9be15d 100%);
 }
 .learn-more .learn-more-container .learn-more-right {
   width: 50%;
@@ -730,7 +730,7 @@ nav .nav-down .nav-down-container ul li i {
   width: 100%;
   opacity: 0;
   transition: 1.5s ease;
-  background: linear-gradient(217deg, #9be15d 0%, #D2405D 100%);
+  background: linear-gradient(217deg, #D2405D 0%, #9be15d 100%);
 }
 .web-design .web-design-container .web-design-down .card-web-design .card-web-design-overlay .branding-marketing-container span {
   font-weight: bold;
@@ -826,6 +826,9 @@ nav .nav-down .nav-down-container ul li i {
   box-shadow: 0 3px 35px 0 rgba(0, 0, 0, 0.14);
   border-radius: 5px;
 }
+.blog .blog-container .blog-card-container .blog-card:hover .blog-card-absolute {
+  background: linear-gradient(39deg, #D2405D 0%, #9be15d 100%);
+}
 .blog .blog-container .blog-card-container .blog-card img {
   width: 100%;
   height: 100%;
@@ -858,7 +861,7 @@ nav .nav-down .nav-down-container ul li i {
   color: #D2405D;
 }
 .blog .blog-container .my-btn-gray {
-  margin: 120px auto;
+  margin: 120px auto 260px;
 }
 
 .partners {
@@ -874,7 +877,7 @@ nav .nav-down .nav-down-container ul li i {
 }
 .partners .partners-container .partners-card-container .partners-card {
   padding: 70px;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 342px;
   width: calc(100% / 2 - 30px);
   margin: 0 15px;
@@ -940,13 +943,16 @@ footer .footer-up .contacts-container .contacts-card {
   width: calc(100% / 4 - 30px);
   margin: 0 15px;
 }
+footer .footer-up .contacts-container .contacts-card a:hover {
+  color: #D2405D;
+}
 footer .footer-down {
   color: #ffffff80;
   height: 112px;
   background: linear-gradient(285deg, #0c0c0c 0%, #474747 100%);
 }
 footer .footer-down .footer-down-container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   height: 100%;
   display: flex;

@@ -58,7 +58,7 @@
           width: 100%;
           opacity: 0;
           transition: 1.5s ease;
-          background: linear-gradient(217deg,#9be15d 0%,$secondary 100%);
+          background: linear-gradient(217deg,$secondary 0%,#9be15d 100%);
           .branding-marketing-container {
             span {
               font-weight: bold;
