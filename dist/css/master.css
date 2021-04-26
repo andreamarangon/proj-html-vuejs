@@ -694,9 +694,9 @@ nav .nav-down .nav-down-container ul li i {
   background: linear-gradient(217deg, #9be15d 0%, #D2405D 100%);
 }
 .web-design .web-design-container .web-design-down .card-web-design .card-web-design-overlay .branding-marketing-container span {
-  padding-right: 20px;
   font-weight: bold;
   font-size: 14px;
+  word-spacing: 20px;
 }
 .web-design .web-design-container .my-btn {
   margin: 120px auto 220px;

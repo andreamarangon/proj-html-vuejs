@@ -102,9 +102,46 @@ var app = new Vue({
         logo: 'fab fa-pinterest-p',
       }
     ],
-    designImg:[
+    designCards:[
       {
-        title: 'The Basket of Flowers'
+        title: 'The Basket of Flowers',
+        subtitle: 'branding marketing',
+        img: './dist/img/flower.jpg'
+      },
+      {
+        title: 'A Famous Ferris Wheel',
+        subtitle: 'marketing',
+        img: './dist/img/ferris-wheel.jpg'
+      },
+      {
+        title: 'Complementary Colors',
+        subtitle: 'branding marketing',
+        img: './dist/img/shoes.jpg'
+      },
+      {
+        title: 'Business Prestige',
+        subtitle: 'branding',
+        img: './dist/img/desk-pencil.jpg'
+      },
+      {
+        title: 'Colorful Origami Boats',
+        subtitle: 'branding marketing',
+        img: './dist/img/origami.jpg'
+      },
+      {
+        title: 'Modern Couch',
+        subtitle: 'marketing',
+        img: './dist/img/sofa.jpg'
+      },
+      {
+        title: 'Hot Air Balloons',
+        subtitle: 'branding marketing',
+        img: './dist/img/air-balloon.jpg'
+      },
+      {
+        title: 'The Basket of Flowers',
+        subtitle: 'branding',
+        img: './dist/img/blue-lemon.jpg'
       },
     ]
 
