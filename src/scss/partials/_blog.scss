@@ -1,6 +1,6 @@
 .blog{
   .blog-container {
-    @include container-center(80%);
+    @include container-center(85%);
     margin-top: 220px;
     .blog-title-container {
       display: flex;
@@ -43,6 +43,7 @@
           span {
             font-size: 14px;
             margin-left: 20px;
+            color: #888888;
           }
           .blog-card-title {
             display: flex;

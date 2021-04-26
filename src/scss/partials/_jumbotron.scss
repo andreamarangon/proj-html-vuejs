@@ -7,9 +7,9 @@
   background-repeat: no-repeat;
   margin-top: 146px;
   .jumbo-container {
-    @include container-center(80%);
+    @include container-center(85%);
     .jumbo-contain {
-      padding: 150px 100px;;
+      padding: 150px 75px;
       h4 {
         background: -webkit-linear-gradient($secondary,#9be15d);
         -webkit-background-clip: text;
@@ -29,10 +29,16 @@
       .social-container {
         display: flex;
         align-items: center;
+        h5 {
+          cursor: pointer;
+          span:hover {
+            color: $secondary;
+          }
+        }
         .selector {
           margin-left: 150px;
           height: 52px;
-          width: 196px;
+          width: 204px;
           background: linear-gradient(271deg,#2e2e2e 1%,#5a5a5a 100%);
           box-shadow: 9px 7px 20px rgb(0 0 0 / 20%);
           border-radius: 150px;

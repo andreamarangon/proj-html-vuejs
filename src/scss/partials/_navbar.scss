@@ -10,7 +10,7 @@ nav {
     background-color: #3D3D3D;
     height: 42px;
     .nav-up-container {
-      @include container-center(80%);
+      @include container-center(85%);
       display: flex;
       justify-content: space-between;
       .nav-up-left {
@@ -41,7 +41,7 @@ nav {
     color: $primary;
     background-color: $tertiary;
     .nav-down-container {
-      @include container-center(80%);
+      @include container-center(85%);
       display: flex;
       justify-content: space-between;
       align-items: center;

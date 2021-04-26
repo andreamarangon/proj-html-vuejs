@@ -66,7 +66,7 @@
             <p class="mb-7 mt-6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,<br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the<br>Semantics, a large language ocean.Separated they live in Bookmarksgrove.</p>
             <div class="my-btn-gray mb-9">read more</div>
             <div class="social-container">
-              <h5 class="text-uppercase">facebook - instagram - youtube - twitter</h5>
+              <h5 class="text-uppercase"><span>facebook</span> - <span>instagram</span> - <span>youtube</span> - <span>twitter</span></h5>
               <div class="selector">
                 <span>01</span>
                 <span>02</span>
@@ -115,10 +115,16 @@
       <section class="learn-more" id="services">
         <div class="learn-more-container">
           <div class="learn-more-left">
-            <img src="./dist/img/businesswoman.jpg" alt="">
+            <div class="businesswoman">
+              <img src="./dist/img/businesswoman.jpg" alt="">
+            </div>
+            <div class="architect">
+              <img src="./dist/img/busy-architect.jpg" alt="">
+              <div class="architect-overlay"></div>
+            </div>
           </div>
           <div class="learn-more-right">
-            <h1>learn more about<br>our <span>missions</span></h1>
+            <h1 class="mt-10">learn more about<br>our <span>missions</span></h1>
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
@@ -149,7 +155,7 @@
           <!-- v-for per card -->
           <div class="web-design-down mt-5">
             <div v-for="designCard in designCards" class="card-web-design">
-              <img :src="designCard.img" alt="">
+              <img :src="designCard.img" :alt="designCard.title">
               <div class="card-web-design-overlay">
                 <h2>{{designCard.title}}</h2>
                 <div class="branding-marketing-container text-uppercase mt-1">

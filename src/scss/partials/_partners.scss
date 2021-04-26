@@ -1,7 +1,7 @@
 .partners {
   background-color: #f9f9f9;
   .partners-container {
-    @include container-center(80%);
+    @include container-center(85%);
     .partners-card-container {
       display: flex;
       flex-wrap: wrap;
@@ -32,7 +32,6 @@
             position: relative;
             input {
               background-color: #70707059;
-              color: rgba(255,255,255,.6);
               font-size: 16px;
               outline: none;
               padding: 21px 90px 21px 41px;

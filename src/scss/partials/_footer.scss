@@ -1,7 +1,7 @@
 footer {
   .footer-up {
     .contacts-container {
-      @include container-center(80%);
+      @include container-center(85%);
       display: flex;
       flex-wrap: wrap;
       .contacts-card {

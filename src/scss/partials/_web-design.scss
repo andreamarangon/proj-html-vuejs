@@ -1,6 +1,6 @@
 .web-design {
   .web-design-container {
-    @include container-center(80%);
+    @include container-center(85%);
     padding-top: 200px;
     .web-design-up {
       display: flex;
@@ -57,7 +57,7 @@
           height: 100%;
           width: 100%;
           opacity: 0;
-          transition: 1s ease;
+          transition: 1.5s ease;
           background: linear-gradient(217deg,#9be15d 0%,$secondary 100%);
           .branding-marketing-container {
             span {
