@@ -29,6 +29,7 @@
             </div>
             <div class="nav-up-right">
               <ul>
+                <!-- v-for per loghi social -->
                 <li v-for="socialLogo in socialLogos"><i :class="socialLogo.logo"></i></li>
               </ul>
             </div>
@@ -42,6 +43,7 @@
             </div>
             <div class="nav-down-center">
               <ul class="text-uppercase">
+                <!-- v-for per link navbar -->
                 <li v-for="navLink in navLinks"><a :href="navLink.link">{{navLink.name}}</a></li>
               </ul>
             </div>
@@ -54,11 +56,13 @@
           </div>
         </div>
       </nav>
-      <div class="jumbo">
+      <!-- jumbotron -->
+      <div class="jumbo" :style="`background-image: url('${backgroundImgs[index]}')`">
         <div class="jumbo-container">
           <div class="jumbo-contain">
             <h4 class="mb-1">17 years of experience</h4>
             <h1 class="mb-4">We Are a<br>Web Design <span>Agency</span></h1>
+            <!-- separatore -->
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
@@ -68,9 +72,10 @@
             <div class="social-container">
               <h5 class="text-uppercase"><span>facebook</span> - <span>instagram</span> - <span>youtube</span> - <span>twitter</span></h5>
               <div class="selector">
-                <span>01</span>
-                <span>02</span>
-                <span>03</span>
+                <span
+                v-for="num in backgroundImgs.length"
+                :class="(num - 1 == index) ? 'active' : '' "
+                @click="numSelection(num - 1)">0{{num}}</span>
               </div>
             </div>
           </div>
@@ -78,16 +83,20 @@
       </div>
     </header>
     <main>
+      <!-- sezione about -->
       <section class="we-are" id="about">
         <div class="we-are-container">
+          <!-- parte sinistra -->
           <div class="we-are-left mt-10">
             <h1 class="text-capitalize mb-4">we are here to <br> make your <span>website </span><br> look more <span>elegant</span><br> and stylish!</h1>
+            <!-- separatore -->
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
             </div>
             <div class="my-btn mt-8">view all</div>
           </div>
+          <!-- parte destra -->
           <div class="we-are-right">
             <div class="we-are-card">
               <i class="fas fa-tachometer-alt mb-5"></i>
@@ -112,8 +121,10 @@
           </div>
         </div>
       </section>
+      <!-- sezione services -->
       <section class="learn-more" id="services">
         <div class="learn-more-container">
+          <!-- parte sinistra -->
           <div class="learn-more-left">
             <div class="businesswoman">
               <img src="./dist/img/businesswoman.jpg" alt="">
@@ -123,8 +134,10 @@
               <div class="architect-overlay"></div>
             </div>
           </div>
+          <!-- parte destra -->
           <div class="learn-more-right">
             <h1 class="mt-10">learn more about<br>our <span>missions</span></h1>
+            <!-- separatore -->
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
@@ -134,15 +147,19 @@
           </div>
         </div>
       </section>
+      <!-- sezione showcase -->
       <section class="web-design" id="showcase">
         <div class="web-design-container">
+          <!-- parte alta con titolo e paragrafo -->
           <div class="web-design-up">
             <div class="web-design-up-left">
+              <!-- separatore -->
               <div class="separator-container">
                 <div class="separator-left"></div>
                 <div class="separator-right"></div>
               </div>
               <h1 class="mb-4">Our recent <span>web design</span> &<br>some examples of<br>past <span>projects</span></h1>
+              <!-- separatore -->
               <div class="separator-container">
                 <div class="separator-left"></div>
                 <div class="separator-right"></div>
@@ -167,6 +184,7 @@
           <div class="my-btn">read more</div>
         </div>
       </section>
+      <!-- sezione con commento -->
       <section class="client-comment">
         <div class="client-comment-container">
           <div class="client-comment-overlay">
@@ -180,43 +198,28 @@
           </div>
         </div>
       </section>
+      <!-- sezione blog -->
       <section class="blog" id="blog">
         <div class="blog-container">
+          <!-- parte alta con titolo -->
           <div class="blog-title-container">
             <h1 class="text-capitalize mb-3">lastest news & our <span>blog</span></h1>
+            <!-- separatore -->
             <div class="separator-container">
               <div class="separator-left"></div>
               <div class="separator-right"></div>
             </div>
           </div>
+          <!-- parte bassa con card -->
           <div class="blog-card-container">
-            <div class="blog-card">
-              <img src="./dist/img/businesswoman-telephone.jpg" alt="">
+            <!-- v-for su card -->
+            <div v-for="blogCard in blogCards" class="blog-card">
+              <img :src="blogCard.img" alt="">
               <div class="blog-card-absolute">
-                <span>May 24, 2018 -by Alex</span>
+                <span>{{blogCard.dateBy}}</span>
                 <div class="blog-card-title">
                   <i class="fas fa-circle"></i>
-                  <h2 class="mt-1">Marketing Ideas</h2>
-                </div>
-              </div>
-            </div>
-            <div class="blog-card">
-              <img src="./dist/img/businessman.jpg" alt="">
-              <div class="blog-card-absolute">
-                <span>May 24, 2018 -by Alex</span>
-                <div class="blog-card-title">
-                  <i class="fas fa-circle"></i>
-                  <h2 class="mt-1">Rest During Working Hours</h2>
-                </div>
-              </div>
-            </div>
-            <div class="blog-card">
-              <img src="./dist/img/home-office.jpg" alt="">
-              <div class="blog-card-absolute">
-                <span>May 24, 2018 -by Alex</span>
-                <div class="blog-card-title">
-                  <i class="fas fa-circle"></i>
-                  <h2 class="mt-1">Develop Your Startup Idea</h2>
+                  <h2 class="mt-1">{{blogCard.title}}</h2>
                 </div>
               </div>
             </div>
@@ -224,9 +227,11 @@
           <div class="my-btn-gray">veiw all post</div>
         </div>
       </section>
+      <!-- sezione partners -->
       <section class="partners">
         <div class="partners-container">
           <div class="partners-card-container">
+            <!-- card grigia -->
             <div class="partners-card partners-card-gray">
               <div class="partners-card-text text-center">
                 <span>Are You Ready</span>
@@ -237,6 +242,7 @@
                 <span class="submit">SUBMIT</span>
               </div>
             </div>
+            <!-- card verde -->
             <div class="partners-card partners-card-green">
               <div class="partners-card-text text-center">
                 <span>What Are You Waiting for?</span>
@@ -253,7 +259,9 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER/sezione contact -->
     <footer id="contact">
+      <!-- parte alta -->
       <section class="footer-up mt-20 mb-15">
         <div class="contacts-container">
           <div class="contacts-card">
@@ -277,6 +285,7 @@
               <div class="separator-right-footer"></div>
             </div>
             <ul>
+              <!-- v-for su quick-links -->
               <li class="mb-4" v-for="footerContact in footerContacts">{{footerContact.info}}</li>
             </ul>
           </div>
@@ -290,14 +299,17 @@
           </div>
         </div>
       </section>
+      <!-- parte bassa -->
       <section class="footer-down">
         <div class="footer-down-container">
           <p><small>© 2020 PHLOX BUSINESS THEME.</small></p>
           <ul>
+            <!-- v-for per loghi social -->
             <li v-for="socialLogo in socialLogos"><i :class="socialLogo.logo"></i></li>
           </ul>
         </div>
       </section>
+      <!-- sezione fixed -->
       <section class="footer-fixed">
         <a href="#">
           <div class="fixed-arrow">

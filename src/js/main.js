@@ -143,6 +143,30 @@ var app = new Vue({
         subtitle: 'branding',
         img: './dist/img/blue-lemon.jpg'
       },
+    ],
+    blogCards: [
+      {
+        dateBy: 'May 24, 2018 -by Alex',
+        title: 'Marketing Ideas',
+        img: './dist/img/businesswoman-telephone.jpg'
+      },
+      {
+        dateBy: 'May 24, 2018 -by Alex',
+        title: 'Rest During Working Hours',
+        img: './dist/img/businessman.jpg'
+      },
+      {
+        dateBy: 'May 24, 2018 -by Alex',
+        title: 'Develop Your Startup Idea',
+        img: './dist/img/home-office.jpg'
+      },
+    ],
+    index: 0,
+    backgroundImgs:[
+      './dist/img/businesswoman-round.png',
+      './dist/img/businessman-round.png',
+      './dist/img/businesspeople-round.png',
+
     ]
 
   },
@@ -150,6 +174,9 @@ var app = new Vue({
 
   },
   methods:{
+    numSelection: function (index) {
+      this.index = index;
+    }
   }
 
 });

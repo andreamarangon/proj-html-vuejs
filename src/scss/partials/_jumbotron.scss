@@ -1,7 +1,7 @@
 .jumbo {
   height: 940px;
   background-color: #f5f5f5;
-  background-image: url('../img/businesswoman-round.png');
+  // background-image: url('../img/businesswoman-round.png');
   background-position: 100% 50%;
   background-size: 1200px;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@
           justify-content: space-between;
           align-items: center;
           padding: 4px;
-          span:first-child {
+          span.active {
             background-image: $bg-lg;
             border-radius: 150px;
           }
@@ -55,6 +55,7 @@
             color: #ffffff59;
             padding: 10px 20px 10px 25px;
             font-weight: bold;
+            cursor: pointer;
           }
         }
 
