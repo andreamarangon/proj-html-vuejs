@@ -386,7 +386,7 @@ a {
 .my-btn {
   font-size: 13px;
   color: #ffffff;
-  background: linear-gradient(269deg, #D2405D 0%, #9be15d 100%);
+  background: linear-gradient(269deg, #00D9A6 0%, #9be15d 100%);
   padding: 18px 45px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
   box-shadow: 6px 6px 25px 0 rgba(0, 217, 166, 0.35);
@@ -417,7 +417,7 @@ a {
   text-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
 }
 .my-btn-gray:hover {
-  background: linear-gradient(269deg, #D2405D 0%, #9be15d 100%);
+  background: linear-gradient(269deg, #00D9A6 0%, #9be15d 100%);
 }
 
 .separator-container {
@@ -427,27 +427,27 @@ a {
 .separator-container .separator-left {
   height: 5px;
   width: 10px;
-  background-image: linear-gradient(to right, #9be15d 0%, #D2405D 100%);
+  background-image: linear-gradient(to right, #9be15d 0%, #00D9A6 100%);
   border-radius: 20px;
   margin-right: 5px;
 }
 .separator-container .separator-right {
   height: 5px;
   width: 50px;
-  background-image: linear-gradient(to right, #9be15d 0%, #D2405D 100%);
+  background-image: linear-gradient(to right, #9be15d 0%, #00D9A6 100%);
   border-radius: 20px;
 }
 .separator-container .separator-left-footer {
   height: 5px;
   width: 10px;
-  background-image: linear-gradient(180deg, #9be15d 0%, #D2405D 100%);
+  background-image: linear-gradient(180deg, #9be15d 0%, #00D9A6 100%);
   border-radius: 20px;
   margin-right: 5px;
 }
 .separator-container .separator-right-footer {
   height: 5px;
   width: 50px;
-  background-image: linear-gradient(180deg, #9be15d 0%, #D2405D 100%);
+  background-image: linear-gradient(180deg, #9be15d 0%, #00D9A6 100%);
   border-radius: 20px;
 }
 
@@ -504,7 +504,7 @@ nav .nav-down .nav-down-container ul li {
   margin-left: 30px;
 }
 nav .nav-down .nav-down-container ul li i {
-  color: #D2405D;
+  color: #00D9A6;
   font-size: 18px;
   cursor: pointer;
 }
@@ -525,7 +525,7 @@ nav .nav-down .nav-down-container ul li i {
   padding: 150px 75px;
 }
 .jumbo .jumbo-container .jumbo-contain h4 {
-  background: -webkit-linear-gradient(#D2405D, #9be15d);
+  background: -webkit-linear-gradient(#00D9A6, #9be15d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 8px;
@@ -535,7 +535,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 60px;
 }
 .jumbo .jumbo-container .jumbo-contain h1 span {
-  color: #D2405D;
+  color: #00D9A6;
 }
 .jumbo .jumbo-container .jumbo-contain h5 {
   font-size: 14px;
@@ -548,7 +548,7 @@ nav .nav-down .nav-down-container ul li i {
   cursor: pointer;
 }
 .jumbo .jumbo-container .jumbo-contain .social-container h5 span:hover {
-  color: #D2405D;
+  color: #00D9A6;
 }
 .jumbo .jumbo-container .jumbo-contain .social-container .selector {
   margin-left: 150px;
@@ -563,7 +563,7 @@ nav .nav-down .nav-down-container ul li i {
   padding: 4px;
 }
 .jumbo .jumbo-container .jumbo-contain .social-container .selector span.active {
-  background-image: linear-gradient(269deg, #D2405D 0%, #9be15d 100%);
+  background-image: linear-gradient(269deg, #00D9A6 0%, #9be15d 100%);
   border-radius: 150px;
 }
 .jumbo .jumbo-container .jumbo-contain .social-container .selector span {
@@ -587,7 +587,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 55px;
 }
 .we-are .we-are-container .we-are-left h1 span {
-  color: #D2405D;
+  color: #00D9A6;
 }
 .we-are .we-are-container .we-are-right {
   width: 60%;
@@ -605,7 +605,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 65px;
 }
 .we-are .we-are-container .we-are-right .we-are-card:hover {
-  background-image: linear-gradient(39deg, #D2405D 0%, #9be15d 100%);
+  background-image: linear-gradient(39deg, #00D9A6 0%, #9be15d 100%);
   color: #ffffff;
 }
 
@@ -654,7 +654,7 @@ nav .nav-down .nav-down-container ul li i {
   height: 100%;
   width: 100%;
   opacity: 0.9;
-  background-image: linear-gradient(217deg, #D2405D 0%, #9be15d 100%);
+  background-image: linear-gradient(217deg, #00D9A6 0%, #9be15d 100%);
 }
 .learn-more .learn-more-container .learn-more-right {
   width: 50%;
@@ -664,7 +664,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 50px;
 }
 .learn-more .learn-more-container .learn-more-right h1 span {
-  color: #D2405D;
+  color: #00D9A6;
 }
 
 .web-design .web-design-container {
@@ -683,7 +683,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 55px;
 }
 .web-design .web-design-container .web-design-up .web-design-up-left h1 span {
-  color: #D2405D;
+  color: #00D9A6;
 }
 .web-design .web-design-container .web-design-up .web-design-up-right {
   width: 55%;
@@ -730,7 +730,7 @@ nav .nav-down .nav-down-container ul li i {
   width: 100%;
   opacity: 0;
   transition: 1.5s ease;
-  background: linear-gradient(217deg, #D2405D 0%, #9be15d 100%);
+  background: linear-gradient(217deg, #00D9A6 0%, #9be15d 100%);
 }
 .web-design .web-design-container .web-design-down .card-web-design .card-web-design-overlay .branding-marketing-container span {
   font-weight: bold;
@@ -762,7 +762,7 @@ nav .nav-down .nav-down-container ul li i {
   margin: 0 auto;
 }
 .client-comment .client-comment-container .client-comment-overlay .client-comment-contain h2 {
-  color: #D2405D;
+  color: #00D9A6;
   font-size: 150px;
   font-weight: 700;
   font-family: "Rufina", serif;
@@ -787,7 +787,7 @@ nav .nav-down .nav-down-container ul li i {
   margin: 0 auto;
 }
 .client-comment .client-comment-container .client-comment-overlay .client-comment-contain h3 {
-  color: #D2405D;
+  color: #00D9A6;
   font-weight: normal;
   font-size: 24px;
 }
@@ -810,7 +810,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 55px;
 }
 .blog .blog-container .blog-title-container h1 span {
-  color: #D2405D;
+  color: #00D9A6;
 }
 .blog .blog-container .blog-title-container .separator-container {
   margin-left: 70px;
@@ -827,7 +827,7 @@ nav .nav-down .nav-down-container ul li i {
   border-radius: 5px;
 }
 .blog .blog-container .blog-card-container .blog-card:hover .blog-card-absolute {
-  background: linear-gradient(39deg, #D2405D 0%, #9be15d 100%);
+  background: linear-gradient(39deg, #00D9A6 0%, #9be15d 100%);
 }
 .blog .blog-container .blog-card-container .blog-card img {
   width: 100%;
@@ -858,7 +858,7 @@ nav .nav-down .nav-down-container ul li i {
   font-size: 10px;
   margin-top: 10px;
   margin-right: 10px;
-  color: #D2405D;
+  color: #00D9A6;
 }
 .blog .blog-container .my-btn-gray {
   margin: 120px auto 260px;
@@ -923,7 +923,7 @@ nav .nav-down .nav-down-container ul li i {
   cursor: pointer;
 }
 .partners .partners-container .partners-card-container .partners-card.partners-card-green {
-  background-image: linear-gradient(39deg, #D2405D 0%, #9be15d 100%);
+  background-image: linear-gradient(39deg, #00D9A6 0%, #9be15d 100%);
   box-shadow: 5px 12px 35px 0 rgba(20, 212, 153, 0.5);
 }
 .partners .partners-container .partners-logo-container {
@@ -944,7 +944,7 @@ footer .footer-up .contacts-container .contacts-card {
   margin: 0 15px;
 }
 footer .footer-up .contacts-container .contacts-card a:hover {
-  color: #D2405D;
+  color: #00D9A6;
 }
 footer .footer-down {
   color: #ffffff80;
